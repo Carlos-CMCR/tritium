@@ -1,11 +1,11 @@
 
 ## Comandos para instalar
-composer install
-npm install && npm run dev
-php artisan migrate --seed
-php artisan serve
+composer install </br>
+npm install && npm run dev  </br>
+php artisan migrate --seed  </br>
+php artisan serve  </br>
 
 ## Login usuario
 
-email: admin@admin.com
-contraseña: admin
+email: admin@admin.com  </br>
+contraseña: admin  </br>
