@@ -9,6 +9,7 @@ class UserController extends Controller
 {
     public function list()
     {
-        return  response()->json(User::all(), 200);
+        $response = User::where('id','!=',auth()->id())->get(['id','name', 'email', 'created_at']);
+        return  response()->json($response, 200);
     }
 }
